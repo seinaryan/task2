@@ -1,0 +1,78 @@
+.con {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  margin: 2em auto;
+  max-width: 22rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputval {
+  width: 100%;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 2px solid #333;
+  margin-bottom: 20px;
+  text-align: right;
+  order: 1; /* Places the input field at the top */
+}
+
+.res {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: right;
+  order: 3; /* Places the result at the bottom */
+}
+
+.btncon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  order: 2; /* Places the buttons and operations in the middle */
+  width: 100%;
+}
+
+.num {
+  display: flex;
+  flex-direction: column;
+  order: 1; /* Places the numbers on the left */
+}
+
+.exp {
+  display: flex;
+  flex-direction: column;
+  order: 3; /* Places the operations on the right */
+}
+
+.btns {
+  padding: 1rem 1.25rem;
+  font-size: 1.5rem;
+  background: hsl(210, 25%, 95%);
+  color: hsl(0, 0%, 0%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin: 5px;
+}
+
+.btns:hover {
+  background: hsl(208, 25%, 86%);
+}
+
+.btns.enter {
+  background: hsl(357, 100%, 72%);
+  order: 4; /* Places the "=" button at the right bottom corner */
+}
+
+.btns.clear {
+  background: hsl(208, 25%, 86);
+  order: 0; /* Places the "Clear" button at the top above the operations */
+}

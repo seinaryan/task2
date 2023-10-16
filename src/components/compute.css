@@ -1,0 +1,75 @@
+body{
+    font-size:40px;
+}
+.heading{
+    height:fit-content;
+    width:fit-content;
+    margin-left:590px;
+}
+.title{
+    color:brown;
+}
+.outerbox{
+    height:80vh;
+    width:500px;
+    padding:5px;
+    margin:0px auto 10px 450px;
+    border:1px solid black;
+    background-color:white;
+    border-radius:3px;
+}
+.output{
+    height:25vh;
+    width:auto;
+    background-color: navy;
+    border:1px solid navy;
+    margin-top:2px;
+    border-radius:3px 3px 0px 0px;
+    padding-top:30px;
+}
+.keypad{
+    height:45vh;
+    width:auto;
+    background-color: black;
+    border:1px solid black;
+    color:white;
+    /* margin-bottom:2px; */
+    border-radius:0px 0px 3px 3px;
+}
+.calculations{
+    height:60px;
+    width:100%;
+    margin-bottom:3px;
+    color:white;
+    border:1px solid brown;
+    padding:3px auto;
+}
+.result{
+    height:60px;
+    width:100%;
+    margin-bottom:3px;
+    color:white;
+    border:1px solid brown;
+    padding:3px auto;
+}
+table{
+    border-collapse:collapse;
+    width:498px;
+    height:340px;
+}
+tr{
+    width:498px;
+    height:68px;
+}
+td{
+    width:125px;
+    text-align:center;
+}
+td:hover {
+    cursor: pointer;
+    transform: scale(1.4); 
+    transition: transform 0.3s; 
+}  
+table,tr,td{
+    border:1px solid green;
+}
